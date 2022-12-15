@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nouvel An</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div id="modal" class="center">
+    <div class="modal-body">
+      <label for="">Ce que tu désires</label>
+      <input type="text" name="" id="item">
+      <label for="">Choisis son importance</label>
+      <select class="" name=""  id="importance">
+        <option value="1">Vous n'avez pas le choix</option>
+        <option value="2">Ca serait cool</option>
+        <option value="3">Si ça vous dit</option>
+      </select>
+      <button type="button" name="button" onclick="valid()">Valider</button>
+    </div>
+  </div>
+
+<div class="center"><h1>Liste des envies</h1></div>
+<div class="main">
+  <div  class="center nav active" data-nav="bouffe"><h2>Bouffe</h2></div>
+  <div  class="center nav" data-nav="boisson"><h2>Boisson<h2></div>
+  <div  class="center nav" data-nav="autre"><h2>Autre</h2></div>
+</div>
+
+
+
+<div class="content nav-active" id="bouffe" >
+
+</div>
+
+<div class="content" id="boisson">
+
+</div>
+
+<div class="content" id="autre" >
+
+</div>
+
+<div id="add" class="center">Ajouter</div>
+
+</body>
+<script  src="./script.js"></script>
+
+</html>
